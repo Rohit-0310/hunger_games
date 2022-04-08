@@ -1,0 +1,475 @@
+{
+    "RestaurantDetails":[
+        {
+            "id": 1,
+            "name": "Biryani Mahal",
+            "total_votes": 866,
+            "reviews": 645,
+            "rating": 4.9,
+            "cost_of_one": 550,
+            "cost_of_two": 1000,
+            "del_time": 30,
+            "cash_back": 250,
+            "min_amount": 200,
+            "image": "https://b.zmtcdn.com/data/dish_photos/fe7/b144e9e5df4830e4928bfdc4b5e36fe7.jpg",
+            "payment_methods":{
+                "card": true,
+                "cash": true,
+                "upi": true
+            },
+            "categories": ["Biryani", "Chicken", "Pizza","Indian","Chinese"]
+        },
+        {
+            "id": 2,
+            "name": "Harilal's",
+            "total_votes": 766,
+            "reviews": 523,
+            "rating": 4,
+            "cost_of_one": 350,
+            "cost_of_two": 550,
+            "del_time": 30,
+            "cash_back": 90,
+            "min_amount": 150,
+            "image": "https://b.zmtcdn.com/data/dish_photos/216/13d2060b10e84c55ef77d3f95c172216.jpg",
+            "payment_methods":{
+                "card": true,
+                "cash": false,
+                "upi": false
+            },
+            "categories": ["Pizza","Indian","Chinese"]
+        },
+
+        {
+            "id": 3,
+            "name": "McDonald's",
+            "total_votes": 646,
+            "reviews": 233,
+            "rating": 3,
+            "cost_of_one": 550,
+            "cost_of_two": 1000,
+            "del_time": 30,
+            "cash_back": 250,
+            "min_amount": 200,
+            "image": "https://b.zmtcdn.com/data/dish_photos/fe7/b144e9e5df4830e4928bfdc4b5e36fe7.jpg",
+            "payment_methods":{
+                "card": true,
+                "cash": true,
+                "upi": false
+            },
+            "categories": ["Biryani", "Chicken", "Pizza","Indian","Chinese"]
+        },
+        {
+            "id": 4,
+            "name": "Red Chilli",
+            "total_votes": 587,
+            "reviews": 245,
+            "rating": 2.5,
+            "cost_of_one": 350,
+            "cost_of_two": 550,
+            "del_time": 30,
+            "cash_back": 90,
+            "min_amount": 150,
+            "image": "https://b.zmtcdn.com/data/pictures/6/19001276/6802b6c6074e691f2049ec491db0aaad_featured_v2.jpg",
+            "payment_methods":{
+                "card": false,
+                "cash": true,
+                "upi": false
+            },
+            "categories": ["Pizza","Indian","Chinese"]
+        },
+
+        {
+            "id": 5,
+            "name": "The Biryani Mall",
+            "total_votes": 875,
+            "reviews": 466,
+            "rating": 4.9,
+            "cost_of_one": 500,
+            "cost_of_two": 900,
+            "del_time": 30,
+            "cash_back": 250,
+            "min_amount": 200,
+            "image": "https://b.zmtcdn.com/data/pictures/5/19560065/cccaec42abcbe493d521b6dad2270f6f_featured_v2.jpg?output-format=webp",
+            "payment_methods":{
+                "card": true,
+                "cash": false,
+                "upi": true
+            },
+            "categories": ["Biryani", "Chicken", "Pizza","Indian","Chinese"]
+        },
+        {
+            "id": 6,
+            "name": "Road Chef",
+            "total_votes": 467,
+            "reviews": 345,
+            "rating": 2.6,
+            "cost_of_one": 350,
+            "cost_of_two": 550,
+            "del_time": 30,
+            "cash_back": 90,
+            "min_amount": 150,
+            "image": "https://b.zmtcdn.com/data/dish_photos/216/13d2060b10e84c55ef77d3f95c172216.jpg",
+            "payment_methods":{
+                "card": false,
+                "cash": true,
+                "upi": false
+            },
+            "categories": ["Pizza","Indian","Chinese","North Indian","Veg"]
+        },
+
+        {
+            "id": 7,
+            "name": "The Old Monk Cafe",
+            "total_votes": 689,
+            "reviews": 365,
+            "rating": 3.5,
+            "cost_of_one": 700,
+            "cost_of_two": 1400,
+            "del_time": 30,
+            "cash_back": 40,
+            "min_amount": 200,
+            "image": "https://b.zmtcdn.com/data/pictures/7/19954757/5ab79a0967b7e81f2828a6350a35df1d_o2_featured_v2.jpg?output-format=webp",
+            "payment_methods":{
+                "card": false,
+                "cash": true,
+                "upi": true
+            },
+            "categories": ["Biryani","Kebab","Chicken", "Pizza","Momos","Oriental","Chinese"]
+        },
+        {
+            "id": 8,
+            "name": "Chicago pizza",
+            "total_votes": 356,
+            "reviews": 132,
+            "rating": 4,
+            "cost_of_one": 300,
+            "cost_of_two": 550,
+            "del_time": 30,
+            "cash_back": 90,
+            "min_amount": 150,
+            "image": "https://b.zmtcdn.com/data/pictures/5/19282545/304a044fc3e8fc69e47141daf96d648d_o2_featured_v2.jpg?output-format=webp",
+            "payment_methods":{
+                "card": true,
+                "cash": false,
+                "upi": true
+            },
+            "categories": ["Pizza","Fast Food","pasta"]
+        },
+
+        {
+            "id": 9,
+            "name": "Asian Fusion",
+            "total_votes": 657,
+            "reviews": 345,
+            "rating": 4.2,
+            "cost_of_one": 400,
+            "cost_of_two": 800,
+            "del_time": 30,
+            "cash_back": 250,
+            "min_amount": 200,
+            "image": "https://b.zmtcdn.com/data/pictures/chains/6/19797696/07c9255e438f73d5a3036b951a26ebf8_o2_featured_v2.jpg?output-format=webp",
+            "payment_methods":{
+                "card": true,
+                "cash": false,
+                "upi": true
+            },
+            "categories": ["Mughlai","North Indian","Chinese","Kebab"]
+        },
+        {
+            "id": 10,
+            "name": "Karim's",
+            "total_votes": 423,
+            "reviews": 133,
+            "rating": 3.7,
+            "cost_of_one": 200,
+            "cost_of_two": 350,
+            "del_time": 40,
+            "cash_back": 90,
+            "min_amount": 150,
+            "image": "https://b.zmtcdn.com/data/pictures/8/19773668/c6fc28d691c9b092819c8efdba1c2630_o2_featured_v2.jpg?output-format=webp",
+            "payment_methods":{
+                "card": false,
+                "cash": true,
+                "upi": true
+            },
+            "categories": ["Chicken","North Indian"]
+        },
+
+        {
+            "id": 11,
+            "name": "Harilal's",
+            "total_votes": 3565,
+            "reviews": 563,
+            "rating": 4.4,
+            "cost_of_one": 430,
+            "cost_of_two": 800,
+            "del_time": 23,
+            "cash_back": 150,
+            "min_amount": 200,
+            "image": "https://b.zmtcdn.com/data/pictures/chains/4/18705064/b6cfbb9e61646419ceb4f74ccb3af178_o2_featured_v2.png?output-format=webp",
+            "payment_methods":{
+                "card": true,
+                "cash": true,
+                "upi": false
+            },
+            "categories": ["Shake", "South Indian", "Street Food","North Indian","Chinese", "Fast Food"]
+        },
+        {
+            "id": 12,
+            "name": "Wok Street",
+            "total_votes": 535,
+            "reviews": 133,
+            "rating": 2.7,
+            "cost_of_one": 230,
+            "cost_of_two": 400,
+            "del_time": 37,
+            "cash_back": 75,
+            "min_amount": 70,
+            "image": "https://b.zmtcdn.com/data/pictures/0/19557290/7a74e887181e45c734803bbd8cbd34e0_o2_featured_v2.jpg?output-format=webp",
+            "payment_methods":{
+                "card": false,
+                "cash": true,
+                "upi": true
+            },
+            "categories": ["Chinese","Asian","Desserts", "Beverages"]
+        },
+
+        {
+            "id": 13,
+            "name": "The Cake Factory",
+            "total_votes": 935,
+            "reviews": 857,
+            "rating": 4.3,
+            "cost_of_one": 400,
+            "cost_of_two": 800,
+            "del_time": 28,
+            "cash_back": 140,
+            "min_amount": 200,
+            "image": "https://b.zmtcdn.com/data/pictures/1/18707081/62798304b534550a7774cb775b69127f_o2_featured_v2.jpg?output-format=webp",
+            "payment_methods":{
+                "card": true,
+                "cash": false,
+                "upi": true
+            },
+            "categories": ["Cake", "Bakery"]
+        },
+        {
+            "id": 14,
+            "name": "Bhukkhad",
+            "total_votes": 857,
+            "reviews": 635,
+            "rating": 3.6,
+            "cost_of_one": 350,
+            "cost_of_two": 670,
+            "del_time": 30,
+            "cash_back": 90,
+            "min_amount": 150,
+            "image": "https://b.zmtcdn.com/data/pictures/chains/1/18892231/10043774d7c6a5817a70750865e9c348_o2_featured_v2.jpg?output-format=webp",
+            "payment_methods":{
+                "card": true,
+                "cash": true,
+                "upi": false
+            },
+            "categories": ["North Indian","Biryani","Chinese","Beverages","South Indian"]
+        },
+
+        {
+            "id": 15,
+            "name": "Kathi Junction",
+            "total_votes": 674,
+            "reviews": 535,
+            "rating": 1.5,
+            "cost_of_one": 780,
+            "cost_of_two": 1400,
+            "del_time": 32,
+            "cash_back": 546,
+            "min_amount": 350,
+            "image": "https://b.zmtcdn.com/data/pictures/4/18772114/1915ac0b392d9ebbefde2850129335e5_o2_featured_v2.jpg",
+            "payment_methods":{
+                "card": false,
+                "cash": true,
+                "upi": true
+            },
+            "categories": ["Rolls","North Indian","Chinese","Lebanese"]
+        },
+        {
+            "id": 16,
+            "name": "Domino's Pizza",
+            "total_votes": 7585,
+            "reviews": 667,
+            "rating": 4.2,
+            "cost_of_one": 800,
+            "cost_of_two": 1500,
+            "del_time": 30,
+            "cash_back": 500,
+            "min_amount": 450,
+            "image": "https://b.zmtcdn.com/data/pictures/3/4000013/6e118fe83193856b9ea9e78993344529_o2_featured_v2.jpg",
+            "payment_methods":{
+                "card": true,
+                "cash": true,
+                "upi": true
+            },
+            "categories": ["Pizza","Fast Food","Burger"]
+        },
+
+
+
+
+
+        {
+            "id": 17,
+            "name": "KFC",
+            "total_votes": 6988,
+            "reviews": 3864,
+            "rating": 4.2,
+            "cost_of_one": 900,
+            "cost_of_two": 1600,
+            "del_time": 30,
+            "cash_back": 480,
+            "min_amount": 700,
+            "image": "https://b.zmtcdn.com/data/pictures/chains/4/4000004/7a2338fb68684ff7209c54d1148323a4_o2_featured_v2.jpg",
+            "payment_methods":{
+                "card": true,
+                "cash": false,
+                "upi": true
+            },
+            "categories": ["Burger","Fast Food","Biryani","Desserts","Beverages"]
+        },
+        {
+            "id": 18,
+            "name": "Bikaner Sweets",
+            "total_votes": 1700,
+            "reviews": 587,
+            "rating": 4.3,
+            "cost_of_one": 170,
+            "cost_of_two": 300,
+            "del_time": 26,
+            "cash_back": 40,
+            "min_amount": 90,
+            "image": "https://b.zmtcdn.com/data/pictures/7/4000297/bd74ea94fe5efbe194c7f5782f1db7b8_o2_featured_v2.jpg",
+            "payment_methods":{
+                "card": false,
+                "cash": true,
+                "upi": true
+            },
+            "categories": ["Mithai","Fast Food","Sandwich","Shake","Indian","Chinese"]
+        },
+
+        {
+            "id": 19,
+            "name": "Yo China",
+            "total_votes": 555,
+            "reviews": 244,
+            "rating": 3.1,
+            "cost_of_one": 300,
+            "cost_of_two": 500,
+            "del_time": 32,
+            "cash_back": 120,
+            "min_amount": 200,
+            "image": "https://b.zmtcdn.com/data/pictures/chains/5/4000045/989e2d25af587b632a623e4a819bc298_o2_featured_v2.jpg",
+            "payment_methods":{
+                "card": true,
+                "cash": true,
+                "upi": false
+            },
+            "categories": ["Continental","Chinese","North Indian","Seafood","Ice Cream","Desserts","Beverages"]
+        },
+        {
+            "id": 20,
+            "name": "Haldiram",
+            "total_votes": 4624,
+            "reviews": 2442,
+            "rating": 4.2,
+            "cost_of_one": 620,
+            "cost_of_two": 1000,
+            "del_time": 26,
+            "cash_back": 130,
+            "min_amount": 250,
+            "image": "https://b.zmtcdn.com/data/pictures/chains/8/4000028/5eaec0d8f6a8813575920d9449761404_o2_featured_v2.jpg",
+            "payment_methods":{
+                "card": false,
+                "cash": true,
+                "upi": true
+            },
+            "categories": ["North Indian","Fast Food","Desserts","Mithai","Chinese","South Indian","Bakery","Shake"]
+        },
+
+        {
+            "id": 21,
+            "name": "Momo Nation Cafe",
+            "total_votes": 534,
+            "reviews": 344,
+            "rating": 4.4,
+            "cost_of_one": 340,
+            "cost_of_two": 700,
+            "del_time": 31,
+            "cash_back": 110,
+            "min_amount": 200,
+            "image": "https://b.zmtcdn.com/data/pictures/7/18942207/c815cfd48c78bc4cfb6ec1c7f8a5ea47_o2_featured_v2.jpg",
+            "payment_methods":{
+                "card": true,
+                "cash": false,
+                "upi": true
+            },
+            "categories": ["Chinese","Fast Food","Street Food","Beverages","Momos"]
+        },
+        {
+            "id": 22,
+            "name": "7th Heaven",
+            "total_votes": 548,
+            "reviews": 563,
+            "rating": 3.6,
+            "cost_of_one": 200,
+            "cost_of_two":350,
+            "del_time": 29,
+            "cash_back": 90,
+            "min_amount": 150,
+            "image": "https://b.zmtcdn.com/data/pictures/6/18887376/9ec0223f92471c0bff7b3d706f2c8b0a_o2_featured_v2.jpg",
+            "payment_methods":{
+                "card": false,
+                "cash": true,
+                "upi": true
+            },
+            "categories": ["Bakery", "Desserts"]
+        },
+
+        {
+            "id": 23,
+            "name": "The Belgian Waffle Co,",
+            "total_votes": 43,
+            "reviews": 1233,
+            "rating": 2.6,
+            "cost_of_one": 422,
+            "cost_of_two": 743,
+            "del_time": 28,
+            "cash_back": 70,
+            "min_amount": 200,
+            "image": "https://b.zmtcdn.com/data/pictures/chains/5/18706155/79aee586ce52810ecb2e32236a6a04d8_o2_featured_v2.jpg",
+            "payment_methods":{
+                "card": false,
+                "cash": true,
+                "upi": true
+            },
+            "categories": ["Desserts","Waffle"]
+        },
+        {
+            "id": 24,
+            "name": "Dragon Flames Delivery",
+            "total_votes": 245,
+            "reviews": 3504,
+            "rating": 4.2,
+            "cost_of_one": 470,
+            "cost_of_two": 600,
+            "del_time": 33,
+            "cash_back": 90,
+            "min_amount": 150,
+            "image": "https://b.zmtcdn.com/data/pictures/9/18748339/649f868b17e42b257faa8142c5addc82_o2_featured_v2.jpg",
+            "payment_methods":{
+                "card": true,
+                "cash": false,
+                "upi": true
+            },
+            "categories": ["Chinese","Oriental"]
+        }
+    ]
+}
