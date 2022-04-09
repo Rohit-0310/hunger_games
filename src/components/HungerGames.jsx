@@ -14,16 +14,16 @@ const HungerGames  = () => {
         getDetails(page, limit)
     },[page, limit]);
 
-    const getDetails = (page, limit) => {
-        fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
+    const getDetails = async(page, limit) => {
+        await fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
         .then((d) => d.json())
         .then((res) =>{
             setList(res);
             console.log(res);
         })
     }
-    const low = () =>{
-        fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
+    const low = async () =>{
+        await fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
         .then((d) => d.json())
         .then((res) =>{
             let result = res.sort((a,b) => {
@@ -34,8 +34,8 @@ const HungerGames  = () => {
         })
     }
 
-    const high = () =>{
-        fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
+    const high = async () =>{
+        await fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
         .then((d) => d.json())
         .then((res) =>{
             let result = res.sort((a,b) => {
@@ -46,8 +46,8 @@ const HungerGames  = () => {
         })
     }
 
-    const one = () => {
-        fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
+    const one = async () => {
+        await fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
         .then((d) => d.json())
         .then((res) =>{
             let result = res.filter((item)=>{
@@ -57,8 +57,8 @@ const HungerGames  = () => {
         })
     }
 
-    const two = () => {
-        fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
+    const two = async () => {
+        await fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
         .then((d) => d.json())
         .then((res) =>{
             let result = res.filter((item)=>{
@@ -68,8 +68,8 @@ const HungerGames  = () => {
         })
     }
 
-    const three = () => {
-        fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
+    const three = async () => {
+        await fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
         .then((d) => d.json())
         .then((res) =>{
             let result = res.filter((item)=>{
@@ -79,8 +79,8 @@ const HungerGames  = () => {
         })
     }
 
-    const four = () => {
-        fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
+    const four = async () => {
+        await fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
         .then((d) => d.json())
         .then((res) =>{
             let result = res.filter((item)=>{
@@ -90,8 +90,8 @@ const HungerGames  = () => {
         })
     }
 
-    const cash =() => {
-        fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
+    const cash = async () => {
+        await fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
         .then((d) => d.json())
         .then((res) =>{
             let result = res.filter((item)=>{
@@ -101,8 +101,8 @@ const HungerGames  = () => {
         })
     }
 
-    const card =() => {
-        fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
+    const card = async () => {
+        await fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
         .then((d) => d.json())
         .then((res) =>{
             let result = res.filter((item)=>{
@@ -112,8 +112,8 @@ const HungerGames  = () => {
         })
     }
 
-    const upi =() => {
-        fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
+    const upi = async () => {
+        await fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
         .then((d) => d.json())
         .then((res) =>{
             let result = res.filter((item)=>{
@@ -123,8 +123,8 @@ const HungerGames  = () => {
         })
     }
 
-    const all =() => {
-        fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
+    const all = async () => {
+        await fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
         .then((d) => d.json())
         .then((res) =>{
             let result = res.filter((item)=>{
