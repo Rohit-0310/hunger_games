@@ -10,9 +10,7 @@ const HungerGames  = () => {
     const [limit, setLimit] = useState(10)
     
     
-    useEffect(()=>{
-        getDetails()
-    },[page, limit]);
+    
 
     const getDetails = async() => {
         await fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
@@ -135,6 +133,10 @@ const HungerGames  = () => {
     }
 
 
+
+    useEffect(()=>{
+        getDetails()
+    },[page, limit]);
 
 // json-server data.json --port 3001 --watch
 
