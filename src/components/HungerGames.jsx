@@ -140,19 +140,20 @@ const HungerGames  = () => {
 
     return (
         <div>
+            <h3>Price</h3>
             <div>
                 <button className="btn" onClick={low} >Low To High</button>
                 <button className="btn" onClick={high} >High TO Low</button>
                 
             </div>
-            
+            <h3>Rating</h3>
             <div>
                 <button className="btn" onClick={one}>1*</button>
                 <button className="btn" onClick={two}>2*</button>
                 <button className="btn" onClick={three}>3*</button>
                 <button className="btn" onClick={four}>4*</button>
             </div>
-            <h3>Payment</h3>
+            <h3>Payment Mode</h3>
             <div>
                 <button className="btn" onClick={cash}>Cash</button>
                 <button className="btn" onClick={card}>Card</button>
