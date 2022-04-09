@@ -11,10 +11,10 @@ const HungerGames  = () => {
     
     
     useEffect(()=>{
-        getDetails(page, limit)
+        getDetails()
     },[page, limit]);
 
-    const getDetails = async(page, limit) => {
+    const getDetails = async() => {
         await fetch(`http://localhost:3001/RestaurantDetails?_page=${page}&_limit=${limit}`)
         .then((d) => d.json())
         .then((res) =>{
