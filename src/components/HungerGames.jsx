@@ -7,7 +7,7 @@ const HungerGames  = () => {
     const [list, setList] = useState([]);
     const [page, setPage] = useState(1);
     const [loading, setLoading] = useState(false);
-    const [limit, setLimit] = useState(20)
+    const [limit, setLimit] = useState(10)
     
     
     useEffect(()=>{
